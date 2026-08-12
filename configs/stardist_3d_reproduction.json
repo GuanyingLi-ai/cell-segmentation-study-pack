@@ -1,0 +1,11 @@
+{
+  "model": "3D_demo",
+  "input_glob": "test/images/*.tif",
+  "label_glob": "test/masks/*.tif",
+  "normalization_percentiles": [1.0, 99.8],
+  "normalization_axes": [0, 1, 2],
+  "prob_thresh": null,
+  "nms_thresh": null,
+  "iou_thresholds": [0.5, 0.75, 0.9],
+  "seed": 0
+}

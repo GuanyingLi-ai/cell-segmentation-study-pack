@@ -1,0 +1,58 @@
+{
+  "status": "success",
+  "n_images": 50,
+  "aggregate": {
+    "0.5": {
+      "criterion": "iou",
+      "thresh": 0.5,
+      "fp": 645,
+      "tp": 1848,
+      "fn": 612,
+      "precision": 0.7412755716004813,
+      "recall": 0.751219512195122,
+      "accuracy": 0.5951690821256038,
+      "f1": 0.7462144155057541,
+      "n_true": 2460,
+      "n_pred": 2493,
+      "mean_true_score": 0.5916637182235718,
+      "mean_matched_score": 0.7876043278417546,
+      "panoptic_quality": 0.5877217031502372,
+      "by_image": false
+    },
+    "0.75": {
+      "criterion": "iou",
+      "thresh": 0.75,
+      "fp": 1294,
+      "tp": 1199,
+      "fn": 1261,
+      "precision": 0.48094665062174086,
+      "recall": 0.48739837398373986,
+      "accuracy": 0.31939264784230154,
+      "f1": 0.48415101958409046,
+      "n_true": 2460,
+      "n_pred": 2493,
+      "mean_true_score": 0.4255574941635132,
+      "mean_matched_score": 0.8731204837038679,
+      "panoptic_quality": 0.42272217240498183,
+      "by_image": false
+    },
+    "0.9": {
+      "criterion": "iou",
+      "thresh": 0.9,
+      "fp": 2048,
+      "tp": 445,
+      "fn": 2015,
+      "precision": 0.1784997994384276,
+      "recall": 0.18089430894308944,
+      "accuracy": 0.0987133984028394,
+      "f1": 0.17968907732687261,
+      "n_true": 2460,
+      "n_pred": 2493,
+      "mean_true_score": 0.17041347920894623,
+      "mean_matched_score": 0.9420610406425561,
+      "panoptic_quality": 0.16927807917865434,
+      "by_image": false
+    }
+  },
+  "total_seconds": 5.132295375005924
+}

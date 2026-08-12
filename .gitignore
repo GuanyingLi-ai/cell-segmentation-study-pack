@@ -1,0 +1,18 @@
+.DS_Store
+**/.DS_Store
+
+# Raw datasets are downloaded separately and are not versioned.
+data_raw/
+
+# Local caches and Python-generated files.
+cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local secrets.
+.env
+.env.*
+*token*
+*secret*
+*credential*

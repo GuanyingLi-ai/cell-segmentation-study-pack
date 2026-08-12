@@ -1,0 +1,7 @@
+# Reproduced on macOS 26.0 arm64, Python 3.12.13, CPU only.
+numpy==2.4.6
+scipy==1.18.0
+scikit-image==0.26.0
+matplotlib==3.11.1
+tifffile==2026.7.31
+stardist==0.9.2  # evaluation-only: same matching implementation as StarDist baseline

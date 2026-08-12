@@ -1,0 +1,23 @@
+[data]
+x = "x"
+y = "y"
+gene = "gene"
+force_2d = true
+min_molecules_per_gene = 20
+min_molecules_per_cell = 20
+exclude_genes = ""
+
+[segmentation]
+scale = 6.5
+scale_std = "25%"
+estimate_scale_from_centers = false
+n_clusters = 3
+prior_segmentation_confidence = 0.2
+iters = 500
+n_cells_init = 0
+
+[plotting]
+gene_composition_neigborhood = 10
+min_pixels_per_cell = 10
+max_plot_size = 1800
+ncv_method = "ri"

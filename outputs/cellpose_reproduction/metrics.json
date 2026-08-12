@@ -1,0 +1,82 @@
+{
+  "status": "success",
+  "success_criterion": "Each official demo image yields >0 instances, a non-degenerate foreground fraction, contiguous integer labels, and persisted QC artifacts.",
+  "scope": "pretrained inference reproduction; not full paper training/benchmark",
+  "config": {
+    "model_type": "cyto",
+    "channels": [
+      2,
+      3
+    ],
+    "diameter": 30.0,
+    "flow_threshold": 0.4,
+    "cellprob_threshold": 0.0,
+    "min_size": 15,
+    "use_gpu": false,
+    "seed": 0,
+    "images": [
+      "img02.png",
+      "img05.png",
+      "img16.png"
+    ]
+  },
+  "environment": {
+    "python": "3.12.13",
+    "platform": "macOS-26.0-arm64-arm-64bit",
+    "cellpose": "3.1.1.1",
+    "torch": "2.13.0",
+    "numpy": "2.0.2",
+    "device": "cpu",
+    "cellpose_model_file": "/Users/liguanying/Desktop/cell-segmentation-study-pack/cache/cellpose-models/cytotorch_0",
+    "cellpose_model_sha256": "6a852487b98a3ad91e4e86c969cac520aaac13c609288aad8bd01d4cf76370c6",
+    "cellpose_local_models_path": "/Users/liguanying/Desktop/cell-segmentation-study-pack/cache/cellpose-models"
+  },
+  "total_runtime_seconds": 8.97256650000054,
+  "images": [
+    {
+      "image": "img02.png",
+      "input_sha256": "c5feed1a3f9ca7d3ac62655856d5d3b52f5f7aa4a52e7cb371e5462d9b0551e1",
+      "shape": [
+        349,
+        467,
+        3
+      ],
+      "mask_sha256": "025b97cfd7b13604bdb3b1487c79e74bfa99c084e0689c18fc3b3c60ad6de2f0",
+      "mask_count": 104,
+      "foreground_fraction": 0.5054576244148162,
+      "median_instance_area_px": 670.5,
+      "labels_contiguous": true,
+      "runtime_seconds": 2.3512845000004745
+    },
+    {
+      "image": "img05.png",
+      "input_sha256": "c523b7d684a9837d2edf73ab1d7fcf195d85775769450d41166a1ab06d5e59f4",
+      "shape": [
+        677,
+        677,
+        3
+      ],
+      "mask_sha256": "46c32cc9f90db9f3531dc1ca9e0b9bc4ceed0e24fe358c7daf243ec480881f8c",
+      "mask_count": 179,
+      "foreground_fraction": 0.29051183756646426,
+      "median_instance_area_px": 766.0,
+      "labels_contiguous": true,
+      "runtime_seconds": 4.46929216600256
+    },
+    {
+      "image": "img16.png",
+      "input_sha256": "5902dcbf8398ec6aa4aea95826ab9ae5d74a1bf0523aa74f8e2a0cffde015a76",
+      "shape": [
+        191,
+        255,
+        3
+      ],
+      "mask_sha256": "cf0b192459a4f530735b07dfa6ffc69fff5c18dd2edaf02910d432b5bb26c4cf",
+      "mask_count": 50,
+      "foreground_fraction": 0.6945282825171953,
+      "median_instance_area_px": 707.5,
+      "labels_contiguous": true,
+      "runtime_seconds": 0.677093916994636
+    }
+  ]
+}

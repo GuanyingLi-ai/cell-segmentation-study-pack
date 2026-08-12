@@ -1,0 +1,65 @@
+Found model '3D_demo' for 'StarDist3D'.
+Loading network weights from 'weights_best.h5'.
+Loading thresholds from 'thresholds.json'.
+Using default values: prob_thresh=0.707933, nms_thresh=0.3.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1786118149.242176 1544527 op_level_cost_estimator.cc:743] Invalid device specifications for CPU: type: "CPU" model: "0" num_cores: 10 environment { key: "cpu_instruction_set" value: "ARM NEON" } environment { key: "eigen" value: "3.4.90" } l1_cache_size: 16384 l2_cache_size: 524288 l3_cache_size: 524288 memory_size: 268435456
+{
+  "status": "success",
+  "model": "3D_demo",
+  "n_volumes": 3,
+  "aggregate": {
+    "0.5": {
+      "criterion": "iou",
+      "thresh": 0.5,
+      "fp": 1,
+      "tp": 235,
+      "fn": 0,
+      "precision": 0.9957627118644068,
+      "recall": 1.0,
+      "accuracy": 0.9957627118644068,
+      "f1": 0.9978768577494692,
+      "n_true": 235,
+      "n_pred": 236,
+      "mean_true_score": 0.8176923990249634,
+      "mean_matched_score": 0.8176924035904255,
+      "panoptic_quality": 0.8159563263004246,
+      "by_image": false
+    },
+    "0.75": {
+      "criterion": "iou",
+      "thresh": 0.75,
+      "fp": 18,
+      "tp": 218,
+      "fn": 17,
+      "precision": 0.923728813559322,
+      "recall": 0.9276595744680851,
+      "accuracy": 0.8616600790513834,
+      "f1": 0.9256900212314225,
+      "n_true": 235,
+      "n_pred": 236,
+      "mean_true_score": 0.7654094099998474,
+      "mean_matched_score": 0.8250973202766628,
+      "panoptic_quality": 0.7637843559248938,
+      "by_image": false
+    },
+    "0.9": {
+      "criterion": "iou",
+      "thresh": 0.9,
+      "fp": 234,
+      "tp": 2,
+      "fn": 233,
+      "precision": 0.00847457627118644,
+      "recall": 0.00851063829787234,
+      "accuracy": 0.0042643923240938165,
+      "f1": 0.008492569002123142,
+      "n_true": 235,
+      "n_pred": 236,
+      "mean_true_score": 0.0076944055035710335,
+      "mean_matched_score": 0.9040926694869995,
+      "panoptic_quality": 0.0076780693799320555,
+      "by_image": false
+    }
+  },
+  "total_seconds": 43.477857416990446
+}

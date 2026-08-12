@@ -1,0 +1,66 @@
+Found model '2D_paper_dsb2018' for 'StarDist2D'.
+Loading network weights from 'weights_last.h5'.
+Loading thresholds from 'thresholds.json'.
+Using default values: prob_thresh=0.417819, nms_thresh=0.5.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1786116341.943224 1465502 op_level_cost_estimator.cc:743] Invalid device specifications for CPU: type: "CPU" model: "0" num_cores: 10 environment { key: "cpu_instruction_set" value: "ARM NEON" } environment { key: "eigen" value: "3.4.90" } l1_cache_size: 16384 l2_cache_size: 524288 l3_cache_size: 524288 memory_size: 268435456
+W0000 00:00:1786116362.459242 1465502 op_level_cost_estimator.cc:743] Invalid device specifications for CPU: type: "CPU" model: "0" num_cores: 10 environment { key: "cpu_instruction_set" value: "ARM NEON" } environment { key: "eigen" value: "3.4.90" } l1_cache_size: 16384 l2_cache_size: 524288 l3_cache_size: 524288 memory_size: 268435456
+{
+  "status": "success",
+  "model": "2D_paper_dsb2018",
+  "n_images": 50,
+  "aggregate": {
+    "0.5": {
+      "criterion": "iou",
+      "thresh": 0.5,
+      "fp": 165,
+      "tp": 2270,
+      "fn": 190,
+      "precision": 0.9322381930184805,
+      "recall": 0.9227642276422764,
+      "accuracy": 0.8647619047619047,
+      "f1": 0.9274770173646578,
+      "n_true": 2460,
+      "n_pred": 2435,
+      "mean_true_score": 0.7588796019554138,
+      "mean_matched_score": 0.822398127753304,
+      "panoptic_quality": 0.7627553626149132,
+      "by_image": false
+    },
+    "0.75": {
+      "criterion": "iou",
+      "thresh": 0.75,
+      "fp": 620,
+      "tp": 1815,
+      "fn": 645,
+      "precision": 0.7453798767967146,
+      "recall": 0.7378048780487805,
+      "accuracy": 0.5892857142857143,
+      "f1": 0.7415730337078652,
+      "n_true": 2460,
+      "n_pred": 2435,
+      "mean_true_score": 0.6359686255455017,
+      "mean_matched_score": 0.8619739879261363,
+      "panoptic_quality": 0.6392166652036517,
+      "by_image": false
+    },
+    "0.9": {
+      "criterion": "iou",
+      "thresh": 0.9,
+      "fp": 1914,
+      "tp": 521,
+      "fn": 1939,
+      "precision": 0.21396303901437372,
+      "recall": 0.21178861788617886,
+      "accuracy": 0.11911294010059442,
+      "f1": 0.2128702757916241,
+      "n_true": 2460,
+      "n_pred": 2435,
+      "mean_true_score": 0.19553497433662415,
+      "mean_matched_score": 0.9232553200163448,
+      "panoptic_quality": 0.19653361459796348,
+      "by_image": false
+    }
+  },
+  "total_seconds": 33.82447533299273
+}

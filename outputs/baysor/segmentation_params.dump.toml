@@ -1,0 +1,30 @@
+# CLI params: `-c work/baysor_synthetic.toml --count-matrix-format tsv --polygon-format FeatureCollection -o work/run_output/ work/data/synthetic_molecules.csv`
+[data]
+x = "x"
+y = "y"
+z = "z"
+gene = "gene"
+force_2d = true
+min_molecules_per_gene = 20
+exclude_genes = ""
+min_molecules_per_cell = 20
+min_molecules_per_segment = 5
+confidence_nn_id = 11
+
+[segmentation]
+scale = 6.5
+scale_std = "25%"
+estimate_scale_from_centers = false
+n_clusters = 3
+prior_segmentation_confidence = 0.2
+iters = 500
+n_cells_init = 0
+nuclei_genes = ""
+cyto_genes = ""
+unassigned_prior_label = "0"
+
+[plotting]
+gene_composition_neigborhood = 10
+min_pixels_per_cell = 10
+max_plot_size = 1800
+ncv_method = "ri"

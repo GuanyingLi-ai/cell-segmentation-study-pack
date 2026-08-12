@@ -1,0 +1,9 @@
+# 结果级最小复现所需依赖
+numpy
+Pillow
+matplotlib
+scikit-image
+
+# 若运行官方模型，还需安装：
+# cellSAM @ git+https://github.com/vanvalenlab/cellSAM.git@362a8e521bcd7313d5cb280bcd4cfc12977c1e9f
+# Python >= 3.10

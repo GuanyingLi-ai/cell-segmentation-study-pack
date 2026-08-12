@@ -1,0 +1,10 @@
+# Python >= 3.11
+# 建议在独立虚拟环境中安装：
+sopa==2.2.10
+spatialdata>=0.7.3
+spatialdata-io>=0.3.0
+spatialdata-plot>=0.2.10
+matplotlib
+pandas
+pyarrow
+shapely

@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "bidcell_version": "1.0.3",
+  "zenodo_doi": "10.5281/zenodo.10070794",
+  "git_commit": "dc5be568ca5aed0ac1ed024e6d2003a3a46be923",
+  "random_seed": 0,
+  "transcripts_input": 186146,
+  "genes": 313,
+  "cells": 710,
+  "mask_shape": [
+    382,
+    510
+  ],
+  "labels_contiguous": true,
+  "foreground_fraction": 0.4666923313828149,
+  "median_cell_area_px": 113.0,
+  "total_assigned_transcripts": 140884,
+  "median_transcripts_per_cell": 167.0,
+  "median_genes_per_cell": 61.0,
+  "empty_cells": 0,
+  "wall_time_seconds": 816.31
+}

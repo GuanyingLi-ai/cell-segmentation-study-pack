@@ -1,0 +1,11 @@
+{
+  "model": "2D_paper_dsb2018",
+  "input_glob": "test/images/*.tif",
+  "label_glob": "test/masks/*.tif",
+  "normalization_percentiles": [1.0, 99.8],
+  "prob_thresh": null,
+  "nms_thresh": null,
+  "iou_thresholds": [0.5, 0.75, 0.9],
+  "qc_images": 6,
+  "seed": 0
+}

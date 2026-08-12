@@ -1,0 +1,14 @@
+{
+  "input_glob": "test/images/*.tif",
+  "label_glob": "test/masks/*.tif",
+  "gaussian_sigma": 1.0,
+  "threshold_method": "otsu",
+  "min_object_size": 15,
+  "min_hole_size": 15,
+  "peak_min_distance": 5,
+  "exclude_border_peaks": false,
+  "watershed_compactness": 0.0,
+  "iou_thresholds": [0.5, 0.75, 0.9],
+  "qc_images": 6,
+  "seed": 0
+}

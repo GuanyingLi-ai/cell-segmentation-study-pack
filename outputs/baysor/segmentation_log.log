@@ -1,0 +1,21 @@
+[00:58:03] Info: Run R9f3683203
+[00:58:04] Info: (2026-08-08) Run Baysor v0.7.1
+[00:58:04] Info: Loading data...
+[00:58:13] Info: Loaded 5400 transcripts, 6 genes.
+[00:58:14] Info: Estimating noise level
+[00:58:22] Info: Done
+[00:58:46] Info: Clustering molecules...
+[00:58:47] Warning: ICA did not converge, fall back to random initialization
+└ Baysor.Processing /Users/liguanying/Documents/Codex/2026-08-07/baysor-petukhov-v-et-al-cell/work/julia_depot/packages/Baysor/9GeRd/src/processing/bmm_algorithm/molecule_clustering.jl:147
+[00:58:48] Info: Algorithm stopped after 112 iterations. Max. probability difference: 0.00173. Converged: true.
+[00:58:48] Info: Done
+[00:58:48] Info: Initializing algorithm. Scale: 6.5, scale std: 1.625, initial #components: 540, #molecules: 5400.
+[00:58:50] Info: Using the following additional information about molecules: [:confidence, :cluster]
+[00:58:50] Info: Using 2D coordinates
+[00:58:58] Info: Processing complete.
+[00:59:01] Info: Estimating local colors
+[00:59:08] Warning: n=5400, which is > length(high_conf_ids) (4257)
+└ Baysor.Processing /Users/liguanying/Documents/Codex/2026-08-07/baysor-petukhov-v-et-al-cell/work/julia_depot/packages/Baysor/9GeRd/src/processing/data_processing/initialization.jl:195
+[00:59:22] Info: Estimating boundary polygons
+[00:59:24] Info: Saving results to work/run_output/segmentation.csv
+[00:59:28] Info: All done!

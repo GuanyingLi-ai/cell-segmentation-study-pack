@@ -1,0 +1,185 @@
+[00:58:04] Info: Run R9f3683203
+[00:58:04] Info: (2026-08-08) Run Baysor v0.7.1
+[00:58:04] Info: Loading data...
+[00:58:13] Info: Loaded 5400 transcripts, 6 genes.
+[00:58:14] Info: Estimating noise level
+[00:58:22] Info: Done
+[00:58:46] Info: Clustering molecules...
+[00:58:47] Warning: ICA did not converge, fall back to random initialization
+└ Baysor.Processing /Users/liguanying/Documents/Codex/2026-08-07/baysor-petukhov-v-et-al-cell/work/julia_depot/packages/Baysor/9GeRd/src/processing/bmm_algorithm/molecule_clustering.jl:147
+[00:58:48] Info: Algorithm stopped after 112 iterations. Max. probability difference: 0.00173. Converged: true.
+[00:58:48] Info: Done
+[00:58:48] Info: Initializing algorithm. Scale: 6.5, scale std: 1.625, initial #components: 540, #molecules: 5400.
+[00:58:50] Info: Using the following additional information about molecules: [:confidence, :cluster]
+[00:58:50] Info: Using 2D coordinates
+Progress:   0%|▏                                        |  ETA: 0:09:31[K
+         Iteration: 2[K
+    Noise level, %: 5.87[K
+   Num. components: 77[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:   6%|██▍                                      |  ETA: 0:00:53[K
+         Iteration: 29[K
+    Noise level, %: 4.85[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  11%|████▍                                    |  ETA: 0:00:28[K
+         Iteration: 54[K
+    Noise level, %: 5.15[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  15%|██████                                   |  ETA: 0:00:21[K
+         Iteration: 73[K
+    Noise level, %: 4.94[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  18%|███████▌                                 |  ETA: 0:00:16[K
+         Iteration: 91[K
+    Noise level, %: 4.94[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  22%|█████████                                |  ETA: 0:00:14[K
+         Iteration: 109[K
+    Noise level, %: 4.91[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  26%|██████████▌                              |  ETA: 0:00:11[K
+         Iteration: 128[K
+    Noise level, %: 4.87[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  29%|███████████▉                             |  ETA: 0:00:10[K
+         Iteration: 145[K
+    Noise level, %: 4.98[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  32%|█████████████▎                           |  ETA: 0:00:09[K
+         Iteration: 162[K
+    Noise level, %: 5.13[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  36%|██████████████▉                          |  ETA: 0:00:07[K
+         Iteration: 182[K
+    Noise level, %: 4.96[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  40%|████████████████▍                        |  ETA: 0:00:06[K
+         Iteration: 200[K
+    Noise level, %: 4.93[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  44%|██████████████████                       |  ETA: 0:00:06[K
+         Iteration: 219[K
+    Noise level, %: 5.02[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  48%|███████████████████▋                     |  ETA: 0:00:05[K
+         Iteration: 239[K
+    Noise level, %: 5.06[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  52%|█████████████████████▎                   |  ETA: 0:00:04[K
+         Iteration: 259[K
+    Noise level, %: 5.09[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  56%|██████████████████████▊                  |  ETA: 0:00:04[K
+         Iteration: 278[K
+    Noise level, %: 4.98[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  59%|████████████████████████▍                |  ETA: 0:00:03[K
+         Iteration: 297[K
+    Noise level, %: 5.04[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  64%|██████████████████████████▏              |  ETA: 0:00:03[K
+         Iteration: 318[K
+    Noise level, %: 4.98[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  67%|███████████████████████████▋             |  ETA: 0:00:02[K
+         Iteration: 337[K
+    Noise level, %: 5.04[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  71%|█████████████████████████████▎           |  ETA: 0:00:02[K
+         Iteration: 357[K
+    Noise level, %: 5.15[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  75%|██████████████████████████████▉          |  ETA: 0:00:02[K
+         Iteration: 377[K
+    Noise level, %: 4.93[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  79%|████████████████████████████████▌        |  ETA: 0:00:01[K
+         Iteration: 396[K
+    Noise level, %: 5.0[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  83%|██████████████████████████████████       |  ETA: 0:00:01[K
+         Iteration: 414[K
+    Noise level, %: 4.93[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  87%|███████████████████████████████████▌     |  ETA: 0:00:01[K
+         Iteration: 433[K
+    Noise level, %: 5.07[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  91%|█████████████████████████████████████▎   |  ETA: 0:00:01[K
+         Iteration: 454[K
+    Noise level, %: 5.02[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  95%|██████████████████████████████████████▉  |  ETA: 0:00:00[K
+         Iteration: 474[K
+    Noise level, %: 5.06[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress:  99%|████████████████████████████████████████▋|  ETA: 0:00:00[K
+         Iteration: 495[K
+    Noise level, %: 5.2[K
+   Num. components: 60[K[A[A[A
+
+
+[K[A[K[A[K[AProgress: 100%|█████████████████████████████████████████| Time: 0:00:05[K
+         Iteration: 500[K
+    Noise level, %: 5.09[K
+   Num. components: 60[K
+[00:58:58] Info: Processing complete.
+[00:59:01] Info: Estimating local colors
+[00:59:08] Warning: n=5400, which is > length(high_conf_ids) (4257)
+└ Baysor.Processing /Users/liguanying/Documents/Codex/2026-08-07/baysor-petukhov-v-et-al-cell/work/julia_depot/packages/Baysor/9GeRd/src/processing/data_processing/initialization.jl:195
+[00:59:22] Info: Estimating boundary polygons
+[00:59:24] Info: Saving results to work/run_output/segmentation.csv
+[00:59:28] Info: All done!
+real 99.75
+user 93.55
+sys 2.63
+time: sysctl kern.clockrate: Operation not permitted

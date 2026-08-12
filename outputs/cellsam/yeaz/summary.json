@@ -1,0 +1,16 @@
+{
+  "image": "/Users/liguanying/Desktop/cell-segmentation-study-pack/data_raw/cellsam/yeaz/YeaZ.png",
+  "mask": "/Users/liguanying/Desktop/cell-segmentation-study-pack/data_raw/cellsam/yeaz/YeaZ_pred.npy",
+  "image_shape": [
+    470,
+    486
+  ],
+  "cell_count": 95,
+  "foreground_fraction": 0.40507836441642586,
+  "area_pixels": {
+    "mean": 973.978947368421,
+    "median": 1024.0,
+    "min": 103.0,
+    "max": 2962.0
+  }
+}

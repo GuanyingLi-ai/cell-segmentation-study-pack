@@ -1,0 +1,20 @@
+# Core versions from BIDCell v1.0.3 pdm.lock; Python 3.10.20 used locally.
+numpy==1.24.4
+pandas==2.1.0
+torch==2.0.1
+torchvision==0.15.2
+cellpose==2.2.3
+opencv-python==4.8.0.76
+opencv-python-headless==4.8.0.76
+scikit-image==0.21.0
+segmentation-models-pytorch==0.3.3
+scipy==1.11.2
+matplotlib==3.7.2
+tifffile==2023.8.30
+h5py==3.9.0
+imgaug==0.4.0
+pydantic==2.3.0
+pillow==10.0.0
+pyyaml==6.0.1
+natsort==8.4.0
+tqdm==4.66.1

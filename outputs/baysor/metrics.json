@@ -1,0 +1,12 @@
+{
+  "n_molecules": 5400,
+  "n_truth_cells": 60,
+  "n_inferred_cells": 60,
+  "assigned_rate_all": 0.9498148148148148,
+  "assigned_rate_truth_molecules": 0.996875,
+  "adjusted_rand_index_truth_molecules": 0.9939879704592217,
+  "weighted_cell_purity": 0.9987460815047022,
+  "median_molecules_per_inferred_cell": 85.0,
+  "min_molecules_per_inferred_cell": 80,
+  "max_molecules_per_inferred_cell": 91
+}
