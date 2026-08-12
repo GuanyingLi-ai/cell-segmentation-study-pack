@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cell Segmentation 学习资料包
 
 更新时间：2026-08-07
@@ -51,3 +52,7 @@ project/
 - 不仅报告 IoU/F1，也检查过分割、欠分割、无核细胞、细胞大小分布、每细胞转录本数和表达污染。
 - 在整张切片运行前，先选有代表性的 ROI 做参数扫描和人工复核。
 - 厂商管线与单一算法分开比较；默认参数结果与调参后结果分开记录。
+=======
+# cell-segmentation-study-pack
+Study notes and reproducible experiments for cell segmentation
+>>>>>>> 7cde4ac81cd481a701c58eb26ae34410ecef9d12
