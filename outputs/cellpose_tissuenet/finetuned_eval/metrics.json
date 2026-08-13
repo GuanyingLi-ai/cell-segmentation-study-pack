@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "scope": "legacy cyto pretrained quantitative baseline; no training",
+  "dataset": "Cellpose 2.0 human-in-the-loop TissueNet test",
+  "dataset_archive_sha256": "f94ea40a7f54fbb1af2e1ffcbed87cd4be7db53db1d3b7d79f4ec6eeef5696ee",
+  "model": "work/cellpose-tissuenet/outputs/finetune_legacy_cyto/models/tissuenet_hil_cyto_finetune_seed0",
+  "model_sha256": "6851e03a9daf1bc367efacd8f73e445aaf2057b96113247eb55a0dd8a91c914a",
+  "parameters": {
+    "diameter": 30.0,
+    "flow_threshold": 0.4,
+    "cellprob_threshold": 0.0,
+    "min_size": 15
+  },
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.13.0",
+    "device": "cpu"
+  },
+  "runtime_seconds": 4.172242250000636,
+  "aggregate": {
+    "0.5": {
+      "tp": 233,
+      "fp": 59,
+      "fn": 331,
+      "precision": 0.797945205479452,
+      "recall": 0.41312056737588654,
+      "f1": 0.544392523364486,
+      "mean_matched_iou": 0.6829959011354889,
+      "pq": 0.37181786206674977,
+      "n_true": 564,
+      "n_pred": 292
+    },
+    "0.75": {
+      "tp": 63,
+      "fp": 229,
+      "fn": 501,
+      "precision": 0.21575342465753425,
+      "recall": 0.11170212765957446,
+      "f1": 0.14719626168224298,
+      "mean_matched_iou": 0.7943829359296352,
+      "pq": 0.11693019851300704,
+      "n_true": 564,
+      "n_pred": 292
+    },
+    "0.9": {
+      "tp": 0,
+      "fp": 292,
+      "fn": 564,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_matched_iou": 0,
+      "pq": 0.0,
+      "n_true": 564,
+      "n_pred": 292
+    }
+  },
+  "per_image": [
+    {
+      "image": "breast_vectra_0.tif",
+      "input_sha256": "36052b87d7eb52d6fd669d66e998aff4b6e02a5631d998da5ad12537fd6eff75",
+      "channels": [
+        2,
+        1
+      ],
+      "ground_truth_instances": 207,
+      "predicted_instances": 137,
+      "runtime_seconds": 1.1436092909989384,
+      "0.5": {
+        "tp": 114,
+        "fp": 23,
+        "fn": 93,
+        "precision": 0.8321167883211679,
+        "recall": 0.5507246376811594,
+        "f1": 0.6627906976744186,
+        "mean_matched_iou": 0.6874414558342313,
+        "pq": 0.45562980212268817,
+        "n_true": 207,
+        "n_pred": 137
+      },
+      "0.75": {
+        "tp": 31,
+        "fp": 106,
+        "fn": 176,
+        "precision": 0.22627737226277372,
+        "recall": 0.1497584541062802,
+        "f1": 0.18023255813953487,
+        "mean_matched_iou": 0.7980114900121671,
+        "pq": 0.14382765226963476,
+        "n_true": 207,
+        "n_pred": 137
+      },
+      "0.9": {
+        "tp": 0,
+        "fp": 137,
+        "fn": 207,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_matched_iou": 0,
+        "pq": 0.0,
+        "n_true": 207,
+        "n_pred": 137
+      }
+    },
+    {
+      "image": "img_1213.tif",
+      "input_sha256": "849e27dc8e407523aac29c46bdb68073b15fc22740a8f86281b8724268bfc0be",
+      "channels": [
+        0,
+        0
+      ],
+      "ground_truth_instances": 165,
+      "predicted_instances": 6,
+      "runtime_seconds": 0.849632624998776,
+      "0.5": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 162,
+        "precision": 0.5,
+        "recall": 0.01818181818181818,
+        "f1": 0.03508771929824561,
+        "mean_matched_iou": 0.5319828021440925,
+        "pq": 0.018666063233126053,
+        "n_true": 165,
+        "n_pred": 6
+      },
+      "0.75": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 165,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_matched_iou": 0,
+        "pq": 0.0,
+        "n_true": 165,
+        "n_pred": 6
+      },
+      "0.9": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 165,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_matched_iou": 0,
+        "pq": 0.0,
+        "n_true": 165,
+        "n_pred": 6
+      }
+    },
+    {
+      "image": "img_1220.tif",
+      "input_sha256": "f471b51c8692957852f2d950ec42defb04e1b22da55a75c91ffcf448fec4aed1",
+      "channels": [
+        2,
+        1
+      ],
+      "ground_truth_instances": 192,
+      "predicted_instances": 149,
+      "runtime_seconds": 1.08218987500004,
+      "0.5": {
+        "tp": 116,
+        "fp": 33,
+        "fn": 76,
+        "precision": 0.7785234899328859,
+        "recall": 0.6041666666666666,
+        "f1": 0.6803519061583577,
+        "mean_matched_iou": 0.6825325051123644,
+        "pq": 0.46436229086823616,
+        "n_true": 192,
+        "n_pred": 149
+      },
+      "0.75": {
+        "tp": 32,
+        "fp": 117,
+        "fn": 160,
+        "precision": 0.21476510067114093,
+        "recall": 0.16666666666666666,
+        "f1": 0.187683284457478,
+        "mean_matched_iou": 0.7908677741621825,
+        "pq": 0.14843266142633335,
+        "n_true": 192,
+        "n_pred": 149
+      },
+      "0.9": {
+        "tp": 0,
+        "fp": 149,
+        "fn": 192,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_matched_iou": 0,
+        "pq": 0.0,
+        "n_true": 192,
+        "n_pred": 149
+      }
+    }
+  ]
+}

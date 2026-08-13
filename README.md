@@ -1,8 +1,6 @@
 # Cell Segmentation 学习资料包
 
-Study notes and reproducible experiments for cell segmentation.
-
-更新时间：2026-08-07
+更新时间：2026-08-13
 
 本资料包面向空间转录组与显微图像中的细胞分割学习、论文总结、方法选型和复现实验。所有文件均为 Markdown，可用 VS Code、Obsidian、Typora、Notion 等直接编辑。
 
@@ -24,10 +22,13 @@ Study notes and reproducible experiments for cell segmentation.
 13. [Watershed / DSB2018 复现](scripts/watershed/README.md)：无训练 marker-controlled 基线、中间产物、实例指标及与 StarDist 的同数据对照。
 14. [StarDist 3D 官方合成样例复现](scripts/stardist/README_3D.md)：3 个体数据、星凸多面体推理、3D mask、实例指标及三正交面 QC。
 15. [复现状态总览](records/复现状态总览.md)：区分成功、部分完成、待数据、环境受阻和未开始项目。
+16. [学习笔记](notes/README.md)：StarDist、Cellpose、Baysor、SMURF、SOPA 的方法原理、流程梳理与术语解释（与 `records/` 复现记录分工）。
+17. [Cellpose TissueNet 真值训练对照](records/Cellpose_TissueNet_真值训练复现.md)：预训练直接推理、预训练微调与随机初始化从零训练的统一定量评价。
+18. [全部复现结果汇总](records/全部复现结果汇总.md)：统一列出所有已完成、部分完成、阻塞和未开始实验，并标注哪些结果可以公平比较。
 
 ## 推荐使用顺序
 
-先读总框架，理解 image-based、transcript-informed、soft segmentation 和 pipeline 的边界；再从 Watershed、StarDist、Cellpose 建立实例分割基础；随后学习 Mesmer、CellSAM；最后进入 Baysor、Segger、BIDCell、SMURF 以及 Space Ranger、Sopa。
+先读总框架，理解 image-based、transcript-informed、soft segmentation 和 pipeline 的边界；再从 Watershed、StarDist、Cellpose 建立实例分割基础（原理可读 [notes/StarDist_方法学习笔记.md](notes/StarDist_方法学习笔记.md)）；随后学习 Mesmer、CellSAM；最后进入 Baysor、Segger、BIDCell、SMURF 以及 Space Ranger、Sopa（[Baysor](notes/Baysor_方法学习笔记.md) · [SMURF 原始笔记](notes/SMURF_原始笔记.pdf) · [SOPA 原始笔记](notes/SOPA_原始笔记.pdf)）。
 
 ## 复现资料组织建议
 
@@ -43,6 +44,7 @@ project/
 │   ├── cell_by_gene/
 │   ├── qc/
 │   └── figures/
+├── notes/             # 方法原理与学习笔记
 └── records/           # 使用本包复现模板填写
 ```
 
