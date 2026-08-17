@@ -3,7 +3,7 @@
 - **整理来源**：基于 `scripts/stardist/reproduce_stardist_2d.py`、`reproduce_stardist_3d.py` 及原理讨论整理  
 - **关联复现**：[StarDist 2D](../records/StarDist_2D_论文同源数据复现.md) · [StarDist 3D](../records/StarDist_3D_官方合成样例复现.md)  
 - **论文**：Schmidt U, et al. MICCAI 2018（2D）；Weigert M, et al. WACV 2020（3D）  
-- **最后更新**：2026-08-13  
+
 
 ---
 
